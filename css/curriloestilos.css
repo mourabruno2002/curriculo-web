@@ -1,0 +1,444 @@
+
+body {
+    display: grid;
+    justify-items: center;
+    background-color: rgb(191, 253, 219);
+    margin: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.curriculo {
+    display: flex;  
+    grid-template-columns: 1fr 2fr;
+    box-shadow: 0 35px 80px 0 black;
+    background-color: white;
+    width: 1080px;
+    height: 1220px;
+}
+
+.direita {
+    padding-top: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.esquerda {
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    background-color: rgb(89, 143, 70);
+}
+
+img {
+  width: 200px;
+  padding: 40px;
+}
+
+h2, h4 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+    text-align: left;
+    color: rgb(89, 143, 70);
+    margin-bottom: 0;
+}
+
+.perfil p {
+    margin-top: 5px;
+}
+
+.perfil {
+    margin-bottom: 30px;
+}
+
+.perfil, .primeiro {
+    text-align: justify;
+}
+
+.experiencia {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    
+}
+
+.linha-experiencia {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    margin-top: 1px;
+}
+
+.titulo1 {
+    width: 500px;
+    color: #666;
+    font-size: 14;
+    margin-top: 0px;
+    margin-right: 20px;
+}
+
+.primeiro h4{
+    margin-bottom: 4px;
+    margin: 0;
+}
+
+.primeiro p {
+    margin-top: 0;
+}
+
+.habilidade {
+    display: flex;
+    flex-direction: column;
+    margin-top: 0;
+    height: 225px;
+}
+
+.linha-habilidade {
+    display: flex;
+    gap: 40px;
+    margin-top: 10px;
+    align-items: center;
+    height: 80px;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 6px;
+}
+
+.nome-habilidade {
+    color: #666;
+    width: 40px;
+}
+
+.barra {
+    width: 500px;
+    height: 8px;
+    background-color: rgb(194, 194, 194);
+    overflow: hidden;
+    border-radius: 4px;
+    margin-left: 50px;
+    padding: 0;
+}
+
+#primeira-barra {
+    width: 75%;
+    height: 100%;
+    background-color: rgb(89, 143, 70);
+}
+
+#segunda-barra {
+    width: 55%;
+    height: 100%;
+    background-color: rgb(89, 143, 70);
+}
+
+#terceira-barra {
+    width: 85%;
+    height: 100%;
+    background-color: #598f46;
+}
+
+.interesse {
+    height: 25px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 6px;
+    margin-top: 0px;
+    padding: 0;
+}
+
+
+
+#interesse-titulo, #habilidade-titulo, #experiencia-titulo {
+    margin-top: 50px;
+}
+
+#habilidade-titulo {
+    margin-bottom: 15px;
+}
+
+#controle {
+    width: 35px;
+    padding: 0;
+    height: 20px;
+    align-items: center;
+    padding-top: 3px;
+}
+
+#microfone {
+    width: 17px;
+    padding: 0;
+    height: 22px;
+    align-items: center;
+    padding-top: 3px;
+}
+
+#fone {
+    width: 28px;
+    padding: 0;
+    height: 23px;
+    align-items: center;
+    padding-top: 3px;
+}
+
+#halter {
+    width: 28px;
+    padding: 0;
+    height: 23px;
+    align-items: center;
+    padding-top: 3px;
+}
+
+.objeto-interesse-cont {
+    display: flex;
+    flex-direction: row;
+    width: 90px;
+    height: 25px;
+    padding: 0;
+    gap: 6px;
+    font-size: 20px;
+    margin-top: 25px;
+}
+
+.objeto-interesse-mic {
+    display: flex;
+    flex-direction: row;
+    width: 80px;
+    height: 25px;
+    padding: 0;
+    gap: 6px;
+    font-size: 20px;
+    margin-left: 65px;
+    margin-top: 25px;
+}
+
+.objeto-interesse-fone {
+    display: flex;
+    flex-direction: row;
+    width: 95px;
+    height: 30px;
+    padding: 0;
+    gap: 6px;
+    font-size: 20px;
+    margin-left: 65px;
+    margin-top: 25px;
+}
+
+.objeto-interesse-halter {
+    display: flex;
+    flex-direction: row;
+    width: 136px;
+    height: 30px;
+    padding: 0;
+    gap: 6px;
+    font-size: 20px;
+    margin-left: 65px;
+    margin-top: 25px;
+}
+
+.foto {
+    width: 350px;
+    height: 400px;
+}
+
+.foto h2 {
+    margin-top: 10px;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.profissao p {
+    margin-top: 6px;
+    color: white;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 200;
+}
+
+#foto-perfil {
+    width: 230px;
+    height: 230px;
+    margin: 0;
+    padding: 0;
+    padding-top: 40px;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+.barra-separacao {
+    width: 300px;
+    height: 2px;
+    background-color: rgba(255, 255, 255, 0.349);
+    text-align: center;
+    margin-left: 25px;
+    margin-right: 25px;
+    border-radius: 4px;
+}
+
+.contato, .email, .github, .linkedin, .localizacao {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 50px;
+}
+
+.informacoes h2 {
+    color: white;
+    font-weight: 500;
+    padding: 0;
+    font-size: 22px;
+    align-items: center;
+    text-align: center;
+}
+
+.educacao h2 {
+    color: white;
+    font-weight: 500;
+    padding: 0;
+    font-size: 22px;
+    align-items: left;
+    text-align: left;
+    margin-left: 25px;
+    margin-top: 25px;
+}
+
+.idioma h2 {
+    color: white;
+    font-weight: 500;
+    padding: 0;
+    font-size: 22px;
+    align-items: left;
+    text-align: left;
+    margin-left: 25px;
+    margin-top: 25px;
+}
+
+#telefone, #github, #linkedin, #localizacao {
+    width: 20px;
+    height: 22px;
+    text-align: left;
+    padding: 15px;
+    padding-left: 0;
+    margin-top: 10px;
+    margin-left: 25px;
+}
+
+#telefone {
+    padding-left: 4px;
+    padding-right: 10px;
+}
+
+#email {
+    width: 25px;
+    height: 15px;
+    text-align: left;
+    padding: 0;
+    margin-left: 25px;
+    margin-right: 10px;
+}
+
+
+.contato p, .github p, .linkedin p {
+    width: 200px;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    line-height: 55px;
+    font-size: 18px;
+    color: white;
+    font-weight: 450;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+.email p {
+    width: 200px;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    line-height: 55px;
+    font-size: 18px;
+    color: white;
+}
+
+.localizacao p {
+    width: 500px;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    line-height: 60px;
+    font-size: 18px;
+    color: white;
+    font-weight: 450;
+}
+
+.graduacao1, .graduacao2 {
+    margin-top: 15px;
+}
+
+.anos {
+    color: #a6eb89;
+    margin-left: 25px;
+    font-size: 20px;
+    margin-bottom: 2px;
+    font-weight: 500;
+    margin-top: 15px;
+}
+
+.curso {
+    color: white;
+    margin-left: 25px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.instituicao {
+    color: white;
+    margin-left: 25px;
+    margin-top: 2px;
+    font-weight: 100;
+}
+
+.portugues p {
+    color: white;
+    margin-left: 25px;
+    margin-top: 15px;
+    margin-bottom: 2px;
+    font-weight: 500;
+    font-size: 18px;
+    height: 30px;
+}
+
+.barra-idioma {
+    background-color: rgba(37, 37, 37, 0.719);
+    width: 290px;
+    height: 4px;
+    margin-left: 25px;
+    margin-top: 6px;
+    margin: 0;
+    padding: 0;
+    margin-left: 25px;
+}
+
+#barra-idioma-primeira {
+    width: 95%;
+    height: 100%;
+    background-color: #a6eb89;
+}
+
+#barra-idioma-segunda {
+    width: 75%;
+    height: 100%;
+    background-color: #a6eb89;
+    padding: 0;
+    margin: 0;
+}
+
+#barra-idioma-terceira {
+    width: 35%;
+    height: 100%;
+    background-color: #a6eb89;
+}
