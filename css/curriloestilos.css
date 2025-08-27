@@ -2,7 +2,7 @@
 body {
     display: grid;
     justify-items: center;
-    background-color: rgb(191, 253, 219);
+    background-color: #bbd4fa;
     margin: 40px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -13,20 +13,21 @@ body {
     box-shadow: 0 35px 80px 0 black;
     background-color: white;
     width: 1080px;
-    height: 1220px;
+    height: 1600px;
 }
 
 .direita {
     padding-top: 10px;
     padding-left: 40px;
     padding-right: 40px;
+    width: 68%;
 }
 
 .esquerda {
     display: flex;
     flex-direction: column;
-    width: 350px;
-    background-color: rgb(89, 143, 70);
+    width: 32%;
+    background-color: #335384;
 }
 
 img {
@@ -34,11 +35,28 @@ img {
   padding: 40px;
 }
 
+.nome {
+    font-size: 45px;
+}
+
 h2, h4 {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-transform: uppercase;
     text-align: left;
-    color: rgb(89, 143, 70);
+    color: #335384;
+    margin-bottom: 0;
+}
+
+.cargo {
+    color: #5ba7d1;
+    letter-spacing: 0;
+    margin-top: 10px;
+}
+
+h3 {
+    color: #5ba7d1;
+    letter-spacing: 4px;
+    margin-top: 50px;
     margin-bottom: 0;
 }
 
@@ -52,6 +70,48 @@ h2, h4 {
 
 .perfil, .primeiro {
     text-align: justify;
+}
+
+.titulo {
+    margin-bottom: 0;
+    font-weight: 500;
+    margin-top: 20px;
+}
+
+.tituloEsq {
+    color: #ffffff;
+    letter-spacing: 4px;
+    margin-top: 50px;
+    margin-bottom: 0;
+    margin-left: 25px;
+}
+
+.instituicao {
+    margin-top: 0;
+    margin-bottom: 0;
+    color: #4444407e;
+}
+
+ul {
+    margin-top: 8px;
+    margin-left: 20px;
+    padding: 0px;
+}
+
+.disciplinas {
+    margin-bottom: 0;
+}
+
+.paragrafoInf {
+    color: #ffffff;
+    font-size: 13px;
+}
+
+.paragrafoEsq {
+    color: #ffffff;
+    font-size: 13px;
+    margin-left: 25px;
+    margin-bottom: 35px;
 }
 
 .experiencia {
@@ -283,43 +343,23 @@ h2, h4 {
     height: 50px;
 }
 
-.informacoes h2 {
-    color: white;
-    font-weight: 500;
-    padding: 0;
-    font-size: 22px;
-    align-items: center;
-    text-align: center;
-}
-
-.educacao h2 {
-    color: white;
-    font-weight: 500;
-    padding: 0;
-    font-size: 22px;
-    align-items: left;
+#localizacao {
+    width: 20px;
+    height: 22px;
     text-align: left;
+    padding: 15px;
+    padding-left: 3px;
+    margin-top: 10px;
     margin-left: 25px;
-    margin-top: 25px;
 }
 
-.idioma h2 {
-    color: white;
-    font-weight: 500;
-    padding: 0;
-    font-size: 22px;
-    align-items: left;
-    text-align: left;
-    margin-left: 25px;
-    margin-top: 25px;
-}
-
-#telefone, #github, #linkedin, #localizacao {
+#telefone, #github, #linkedin {
     width: 20px;
     height: 22px;
     text-align: left;
     padding: 15px;
     padding-left: 0;
+    padding-top: 5px;
     margin-top: 10px;
     margin-left: 25px;
 }
@@ -336,70 +376,6 @@ h2, h4 {
     padding: 0;
     margin-left: 25px;
     margin-right: 10px;
-}
-
-
-.contato p, .github p, .linkedin p {
-    width: 200px;
-    height: 50px;
-    align-items: center;
-    justify-content: center;
-    line-height: 55px;
-    font-size: 18px;
-    color: white;
-    font-weight: 450;
-    margin-top: 10px;
-    margin-bottom: 0;
-}
-
-.email p {
-    width: 200px;
-    height: 50px;
-    align-items: center;
-    justify-content: center;
-    line-height: 55px;
-    font-size: 18px;
-    color: white;
-}
-
-.localizacao p {
-    width: 500px;
-    height: 50px;
-    align-items: center;
-    justify-content: center;
-    line-height: 60px;
-    font-size: 18px;
-    color: white;
-    font-weight: 450;
-}
-
-.graduacao1, .graduacao2 {
-    margin-top: 15px;
-}
-
-.anos {
-    color: #a6eb89;
-    margin-left: 25px;
-    font-size: 20px;
-    margin-bottom: 2px;
-    font-weight: 500;
-    margin-top: 15px;
-}
-
-.curso {
-    color: white;
-    margin-left: 25px;
-    margin-top: 2px;
-    margin-bottom: 2px;
-    font-weight: 500;
-    font-size: 18px;
-}
-
-.instituicao {
-    color: white;
-    margin-left: 25px;
-    margin-top: 2px;
-    font-weight: 100;
 }
 
 .portugues p {
